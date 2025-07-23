@@ -105,7 +105,7 @@ const UiUxEssentials = () => {
             <nav className="bg-white shadow-md">
                 <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
                     {/* <img src='../assets/logo.png' alt='Our Logo' /> */}
-                    <img src="/src/assets/logo.png" alt="Our Logo" className="h-8" />
+                    <img src="/assets/logo.png" alt="Our Logo" className="h-8" />
 
                     {/* <div className="flex items-center gap-3">
                         <div className="bg-gradient-to-r from-purple-600 to-pink-600 p-2 rounded-md text-white">
