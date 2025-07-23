@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
-
+import logo from '../assets/logo.png';
 
 const UiUxEssentials = () => {
     const courseDetails = [
@@ -95,7 +95,7 @@ const UiUxEssentials = () => {
     const benefits = [
         { icon: "lucide:briefcase", text: "Hands-on Projects" },
         { icon: "lucide:eye", text: "Figma Access + Templates" },
-        { icon: "lucide:file-text", text: "Downloadable Resources" },
+        { icon: "lucide:fil e-text", text: "Downloadable Resources" },
         { icon: "lucide:message-circle", text: "Mentor Feedback & Support" },
         { icon: "lucide:award", text: "Certificate of Completion" }
     ];
@@ -105,7 +105,7 @@ const UiUxEssentials = () => {
             <nav className="bg-white shadow-md">
                 <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
                     {/* <img src='../assets/logo.png' alt='Our Logo' /> */}
-                    <img src="/assets/logo.png" alt="Our Logo" className="h-8" />
+                    <img src={logo} alt="Our Logo" className="h-8" />
 
                     {/* <div className="flex items-center gap-3">
                         <div className="bg-gradient-to-r from-purple-600 to-pink-600 p-2 rounded-md text-white">
