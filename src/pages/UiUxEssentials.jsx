@@ -95,7 +95,7 @@ const UiUxEssentials = () => {
     const benefits = [
         { icon: "lucide:briefcase", text: "Hands-on Projects" },
         { icon: "lucide:eye", text: "Figma Access + Templates" },
-        { icon: "lucide:fil e-text", text: "Downloadable Resources" },
+        { icon: "lucide:file-text", text: "Downloadable Resources" },
         { icon: "lucide:message-circle", text: "Mentor Feedback & Support" },
         { icon: "lucide:award", text: "Certificate of Completion" }
     ];
